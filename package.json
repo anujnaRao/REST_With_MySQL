@@ -1,14 +1,25 @@
 {
-  "name": "rest_with_postgres",
+  "name": "rest_with_mongodb",
   "version": "1.0.0",
   "description": "REST with database",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Anujna P Rao",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anujnaRao/REST_With_MySQL.git"
+  },
+  "author": "Anujna",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anujnaRao/REST_With_MySQL/issues"
+  },
+  "homepage": "https://github.com/anujnaRao/REST_With_MySQL#readme",
   "dependencies": {
-    "sequelize": "^6.3.3"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
   }
 }
